@@ -1,0 +1,20 @@
+a, a:hover {
+    text-decoration: none;
+}
+a:hover {
+    color: #5e3fcb;
+}
+
+.img-teacher-avatar {
+    width: 35px; 
+    height:35px;
+}
+.margin-slide {
+    margin-top: 70px;
+}
+.ps-icon-search {
+    padding-left: 1rem!important;
+}
+.ps-input-search {
+    padding-left: 2.5rem!important;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. Header - Navbar menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="./index.html">
+            <img src="images/Ionic_logo.png" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbar-default">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBrowse" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Browse courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownBrowse">
+                      <a class="dropdown-item" href="#">Web Development</a>
+                      <a class="dropdown-item" href="#">Mobile App</a>
+                      <a class="dropdown-item" href="#">Desktop App</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAboutUs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownAboutUs">
+                      <a class="dropdown-item" href="#">Vision & Mission</a>
+                      <a class="dropdown-item" href="#">Team</a>
+                      <a class="dropdown-item" href="#">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline ml-3">
+                <i class="fa fa-search text-secondary position-absolute ps-icon-search"></i>
+                <input class="form-control mr-sm-3 ps-input-search" type="search" placeholder="Search Courses" aria-label="Search">
+                <button class="btn btn-outline-primary" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- 2. Slide body -->
+    <div class="container-fluid bg-info margin-slide">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-white">Welcome to Ionic Course365 Learning Center</h1>
+                    <p class="text-white-50 mb-4">
+                        Ionic Course365 is an online learning and teaching marketplace with over 5000 courses and 1 million students.
+                        Instructor and expertly crafted courses, designed for the modern students and entrepreneur.
+                    </p>
+                    <a href="#" class="btn btn-warning pt-2 pb-2 pl-4 pr-4 mr-3 mb-3">Browse Courses</a>
+                    <a href="#" class="btn bg-white pt-2 pb-2 pl-4 pr-4 mb-3">Become an Instructor</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/ionic-207965.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3. Courses content -->
+    <div class="container-fluid">
+        <!-- 3.1 recommend courses -->
+        <div class="container pt-lg-5 pb-lg-3 pt-5 pb-5">
+            <div class="row mb-4">
+                <div class="col">
+                    <h2>Recommended to you</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card mb-4 card-hover">
+                        <!-- Card header -->
+                        <a href="#" class="card-img-top">
+                            <img src="images/courses/course-angular.jpg" alt="" class="rounded-top card-img-top">
+                        </a>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <h6 class="mb-2">
+                                <a href="#">How to easily create a website with Angular</a>
+                            </h6>
+                            <!-- List Trình độ -->
+                            <ul class="mb-3 list-inline">
+                                <li class="list-inline-item"><i class="far fa-clock mr-2"></i>3h 56m</li>
+                                <li class="list-inline-item">Beginner</li>
+                            </ul>
+                            <!-- Price -->
+                            <div class="mt-3">
+                                <span class="text-dark font-weight-bold">$600</span>
+                                <del class="text-muted">$750</del>
+                            </div>
+                        </div>
+                        <!-- Card Footer -->
+                        <div class="card-footer">
+                            <div class="float-left mr-3">
+                                <img src="images/teacher/morris_mccoy.jpg"  class="rounded-circle img-teacher-avatar" alt="">
+                            </div>
+                           <div class="float-left">
+                                <small>Morris Mccoy</small>
+                            </div>
+                            <div class="float-right">
+                                <i class="far fa-bookmark text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-4 card-hover">
+                        <!-- Card header -->
+                        <a href="#" class="card-img-top">
+                            <img src="images/courses/course-python.jpg" alt="" class="rounded-top card-img-top">
+                        </a>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <h6 class="mb-2">
+                                <a href="#">The Python Course: build web application</a>
+                            </h6>
+                            <!-- List Trình độ -->
+                            <ul class="mb-3 list-inline">
+                                <li class="list-inline-item"><i class="far fa-clock mr-2"></i>4h 30m</li>
+                                <li class="list-inline-item">Advanced</li>
+                            </ul>
+                            <!-- Price -->
+                            <div class="mt-3">
+                                <span class="text-dark font-weight-bold">$900</span>
+                                <del class="text-muted">$1050</del>
+                            </div>
+                        </div>
+                        <!-- Card Footer -->
+                        <div class="card-footer">
+                            <div class="float-left mr-3">
+                                <img src="images/teacher/claire_robertson.jpg"  class="rounded-circle img-teacher-avatar" alt="">
+                            </div>
+                           <div class="float-left">
+                                <small>Claire Robertson</small>
+                            </div>
+                            <div class="float-right">
+                                <i class="far fa-bookmark text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-4 card-hover">
+                        <!-- Card header -->
+                        <a href="#" class="card-img-top">
+                            <img src="images/courses/course-graphql.jpg" alt="" class="rounded-top card-img-top">
+                        </a>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <h6 class="mb-2">
+                                <a href="#">GraphQL: introduction to graphQL for beginners</a>
+                            </h6>
+                            <!-- List Trình độ -->
+                            <ul class="mb-3 list-inline">
+                                <li class="list-inline-item"><i class="far fa-clock mr-2"></i>2h 15m</li>
+                                <li class="list-inline-item">Intermediate</li>
+                            </ul>
+                            <!-- Price -->
+                            <div class="mt-3">
+                                <span class="text-dark font-weight-bold">$650</span>
+                                <del class="text-muted">$850</del>
+                            </div>
+                        </div>
+                        <!-- Card Footer -->
+                        <div class="card-footer">
+                            <div class="float-left mr-3">
+                                <img src="images/teacher/ted_hawkins.jpg"  class="rounded-circle img-teacher-avatar" alt="">
+                            </div>
+                           <div class="float-left">
+                                <small>Ted Hawkins</small>
+                            </div>
+                            <div class="float-right">
+                                <i class="far fa-bookmark text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mb-4 card-hover">
+                        <!-- Card header -->
+                        <a href="#" class="card-img-top">
+                            <img src="images/courses/course-javascript.jpg" alt="" class="rounded-top card-img-top">
+                        </a>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                            <h6 class="mb-2">
+                                <a href="#">Getting Started with JavaScript</a>
+                            </h6>
+                            <!-- List Trình độ -->
+                            <ul class="mb-3 list-inline">
+                                <li class="list-inline-item"><i class="far fa-clock mr-2"></i>3h 34m</li>
+                                <li class="list-inline-item">Beginner</li>
+                            </ul>
+                            <!-- Price -->
+                            <div class="mt-3">
+                                <span class="text-dark font-weight-bold">$300</span>
+                                <del class="text-muted">$550</del>
+                            </div>
+                        </div>
+                        <!-- Card Footer -->
+                        <div class="card-footer">
+                            <div class="float-left mr-3">
+                                <img src="images/teacher/ted_hawkins.jpg" class="rounded-circle img-teacher-avatar" alt="">
+                            </div>
+                            <div class="float-left">
+                                <small>Ted Hawkins</small>
+                            </div>
+                            <div class="float-right">
+                                <i class="far fa-bookmark text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3.2 Most Popular courses -->
+        <div class="container pt-lg-5 pb-lg-3 pt-5 pb-5">
+            <div class="row mb-4">
+                <div class="col">
+                    <h2>Most Popular</h2>
+                </div>
+            </div>
+            <div class="row" id="div-popular-courses">
+                
+            </div>
+        </div>
+        <!-- 3.3 Trending courses -->
+        <div class="container pt-lg-5 pb-lg-3 pt-5 pb-5">
+            <div class="row mb-4">
+                <div class="col">
+                    <h2>Trending</h2>
+                </div>
+            </div>
+            <div class="row" id="div-trending-courses">
+                
+            </div>
+        </div>
+    </div>
+    <!-- 4. Footer -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <span>© 2021 Ionic Course365. All Rights Reserved.</span>
+            </div>
+            <div class="col-md-6">
+                <nav class="nav nav-footer justify-content-center justify-content-md-end">
+                    <a class="nav-link active ps-0" href="#">Privacy</a>
+                    <a class="nav-link" href="#">Terms </a>
+                    <a class="nav-link" href="#">Feedback</a>
+                    <a class="nav-link" href="#">Support</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
